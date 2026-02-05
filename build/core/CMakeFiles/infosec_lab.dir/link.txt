@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libinfosec_lab.so -o libinfosec_lab.so CMakeFiles/infosec_lab.dir/src/vcs.cpp.o CMakeFiles/infosec_lab.dir/src/env.cpp.o 

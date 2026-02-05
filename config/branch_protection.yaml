@@ -1,0 +1,44 @@
+rules:
+  - branch: "main"
+    require_approvals: true
+    min_approvals: 2
+    require_security_review: true
+    require_code_scan: true
+    block_force_push: true
+    block_deletion: true
+    required_groups:
+      - security
+      - maintainers
+  
+  - branch: "master"
+    require_approvals: true
+    min_approvals: 2
+    require_security_review: true
+    require_code_scan: true
+    block_force_push: true
+    block_deletion: true
+    required_groups:
+      - security
+      - maintainers
+  
+  - branch: "production"
+    require_approvals: true
+    min_approvals: 3
+    require_security_review: true
+    require_code_scan: true
+    block_force_push: true
+    block_deletion: true
+    required_groups:
+      - security
+      - maintainers
+      - operations
+  
+  - branch_pattern: "security/*"
+    require_approvals: true
+    min_approvals: 2
+    require_security_review: true
+    require_code_scan: true
+    block_force_push: true
+    block_deletion: true
+    required_groups:
+      - security

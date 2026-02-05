@@ -1,0 +1,2 @@
+/usr/bin/ar qc libinfosec_lab.a CMakeFiles/infosec_lab.dir/src/vcs.cpp.o CMakeFiles/infosec_lab.dir/src/env.cpp.o
+/usr/bin/ranlib libinfosec_lab.a
