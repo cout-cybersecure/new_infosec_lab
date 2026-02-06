@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/technetium-addict/lab/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/technetium-addict/lab/build/CMakeFiles /home/technetium-addict/lab/build/core//CMakeFiles/progress.marks
-	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/all
+	cd /home/technetium-addict/lab/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/technetium-addict/lab/build/CMakeFiles /home/technetium-addict/lab/build/lib//CMakeFiles/progress.marks
+	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/technetium-addict/lab/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/clean
+	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,12 +103,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/preinstall
+	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/preinstall
+	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-core/CMakeFiles/infosec_lab.dir/rule:
-	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/CMakeFiles/infosec_lab.dir/rule
-.PHONY : core/CMakeFiles/infosec_lab.dir/rule
+lib/CMakeFiles/infosec_lab.dir/rule:
+	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/infosec_lab.dir/rule
+.PHONY : lib/CMakeFiles/infosec_lab.dir/rule
 
 # Convenience name for target.
-infosec_lab: core/CMakeFiles/infosec_lab.dir/rule
+infosec_lab: lib/CMakeFiles/infosec_lab.dir/rule
 .PHONY : infosec_lab
 
 # fast build rule for target.
 infosec_lab/fast:
-	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f core/CMakeFiles/infosec_lab.dir/build.make core/CMakeFiles/infosec_lab.dir/build
+	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/infosec_lab.dir/build.make lib/CMakeFiles/infosec_lab.dir/build
 .PHONY : infosec_lab/fast
 
 src/env.o: src/env.cpp.o
@@ -135,7 +135,7 @@ src/env.o: src/env.cpp.o
 
 # target to build an object file
 src/env.cpp.o:
-	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f core/CMakeFiles/infosec_lab.dir/build.make core/CMakeFiles/infosec_lab.dir/src/env.cpp.o
+	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/infosec_lab.dir/build.make lib/CMakeFiles/infosec_lab.dir/src/env.cpp.o
 .PHONY : src/env.cpp.o
 
 src/env.i: src/env.cpp.i
@@ -143,7 +143,7 @@ src/env.i: src/env.cpp.i
 
 # target to preprocess a source file
 src/env.cpp.i:
-	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f core/CMakeFiles/infosec_lab.dir/build.make core/CMakeFiles/infosec_lab.dir/src/env.cpp.i
+	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/infosec_lab.dir/build.make lib/CMakeFiles/infosec_lab.dir/src/env.cpp.i
 .PHONY : src/env.cpp.i
 
 src/env.s: src/env.cpp.s
@@ -151,7 +151,7 @@ src/env.s: src/env.cpp.s
 
 # target to generate assembly for a file
 src/env.cpp.s:
-	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f core/CMakeFiles/infosec_lab.dir/build.make core/CMakeFiles/infosec_lab.dir/src/env.cpp.s
+	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/infosec_lab.dir/build.make lib/CMakeFiles/infosec_lab.dir/src/env.cpp.s
 .PHONY : src/env.cpp.s
 
 src/vcs.o: src/vcs.cpp.o
@@ -159,7 +159,7 @@ src/vcs.o: src/vcs.cpp.o
 
 # target to build an object file
 src/vcs.cpp.o:
-	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f core/CMakeFiles/infosec_lab.dir/build.make core/CMakeFiles/infosec_lab.dir/src/vcs.cpp.o
+	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/infosec_lab.dir/build.make lib/CMakeFiles/infosec_lab.dir/src/vcs.cpp.o
 .PHONY : src/vcs.cpp.o
 
 src/vcs.i: src/vcs.cpp.i
@@ -167,7 +167,7 @@ src/vcs.i: src/vcs.cpp.i
 
 # target to preprocess a source file
 src/vcs.cpp.i:
-	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f core/CMakeFiles/infosec_lab.dir/build.make core/CMakeFiles/infosec_lab.dir/src/vcs.cpp.i
+	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/infosec_lab.dir/build.make lib/CMakeFiles/infosec_lab.dir/src/vcs.cpp.i
 .PHONY : src/vcs.cpp.i
 
 src/vcs.s: src/vcs.cpp.s
@@ -175,7 +175,7 @@ src/vcs.s: src/vcs.cpp.s
 
 # target to generate assembly for a file
 src/vcs.cpp.s:
-	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f core/CMakeFiles/infosec_lab.dir/build.make core/CMakeFiles/infosec_lab.dir/src/vcs.cpp.s
+	cd /home/technetium-addict/lab/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/infosec_lab.dir/build.make lib/CMakeFiles/infosec_lab.dir/src/vcs.cpp.s
 .PHONY : src/vcs.cpp.s
 
 # Help Target

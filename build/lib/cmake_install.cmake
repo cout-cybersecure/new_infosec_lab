@@ -1,4 +1,4 @@
-# Install script for directory: /home/technetium-addict/lab/core
+# Install script for directory: /home/technetium-addict/lab/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/technetium-addict/lab/core/src/env.cpp" "core/CMakeFiles/infosec_lab.dir/src/env.cpp.o" "gcc" "core/CMakeFiles/infosec_lab.dir/src/env.cpp.o.d"
-  "/home/technetium-addict/lab/core/src/vcs.cpp" "core/CMakeFiles/infosec_lab.dir/src/vcs.cpp.o" "gcc" "core/CMakeFiles/infosec_lab.dir/src/vcs.cpp.o.d"
+  "/home/technetium-addict/lab/lib/src/env.cpp" "lib/CMakeFiles/infosec_lab.dir/src/env.cpp.o" "gcc" "lib/CMakeFiles/infosec_lab.dir/src/env.cpp.o.d"
+  "/home/technetium-addict/lab/lib/src/vcs.cpp" "lib/CMakeFiles/infosec_lab.dir/src/vcs.cpp.o" "gcc" "lib/CMakeFiles/infosec_lab.dir/src/vcs.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

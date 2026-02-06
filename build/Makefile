@@ -126,7 +126,7 @@ infosec_lab: cmake_check_build_system
 
 # fast build rule for target.
 infosec_lab/fast:
-	$(MAKE) $(MAKESILENT) -f core/CMakeFiles/infosec_lab.dir/build.make core/CMakeFiles/infosec_lab.dir/build
+	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/infosec_lab.dir/build.make lib/CMakeFiles/infosec_lab.dir/build
 .PHONY : infosec_lab/fast
 
 # Help Target

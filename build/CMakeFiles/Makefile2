@@ -63,57 +63,57 @@ CMAKE_BINARY_DIR = /home/technetium-addict/lab/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: core/all
+all: lib/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: core/preinstall
+preinstall: lib/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: core/clean
+clean: lib/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory core
+# Directory level rules for directory lib
 
 # Recursive "all" directory target.
-core/all: core/CMakeFiles/infosec_lab.dir/all
-.PHONY : core/all
+lib/all: lib/CMakeFiles/infosec_lab.dir/all
+.PHONY : lib/all
 
 # Recursive "preinstall" directory target.
-core/preinstall:
-.PHONY : core/preinstall
+lib/preinstall:
+.PHONY : lib/preinstall
 
 # Recursive "clean" directory target.
-core/clean: core/CMakeFiles/infosec_lab.dir/clean
-.PHONY : core/clean
+lib/clean: lib/CMakeFiles/infosec_lab.dir/clean
+.PHONY : lib/clean
 
 #=============================================================================
-# Target rules for target core/CMakeFiles/infosec_lab.dir
+# Target rules for target lib/CMakeFiles/infosec_lab.dir
 
 # All Build rule for target.
-core/CMakeFiles/infosec_lab.dir/all:
-	$(MAKE) $(MAKESILENT) -f core/CMakeFiles/infosec_lab.dir/build.make core/CMakeFiles/infosec_lab.dir/depend
-	$(MAKE) $(MAKESILENT) -f core/CMakeFiles/infosec_lab.dir/build.make core/CMakeFiles/infosec_lab.dir/build
+lib/CMakeFiles/infosec_lab.dir/all:
+	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/infosec_lab.dir/build.make lib/CMakeFiles/infosec_lab.dir/depend
+	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/infosec_lab.dir/build.make lib/CMakeFiles/infosec_lab.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/technetium-addict/lab/build/CMakeFiles --progress-num=1,2,3 "Built target infosec_lab"
-.PHONY : core/CMakeFiles/infosec_lab.dir/all
+.PHONY : lib/CMakeFiles/infosec_lab.dir/all
 
 # Build rule for subdir invocation for target.
-core/CMakeFiles/infosec_lab.dir/rule: cmake_check_build_system
+lib/CMakeFiles/infosec_lab.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/technetium-addict/lab/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/CMakeFiles/infosec_lab.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/infosec_lab.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/technetium-addict/lab/build/CMakeFiles 0
-.PHONY : core/CMakeFiles/infosec_lab.dir/rule
+.PHONY : lib/CMakeFiles/infosec_lab.dir/rule
 
 # Convenience name for target.
-infosec_lab: core/CMakeFiles/infosec_lab.dir/rule
+infosec_lab: lib/CMakeFiles/infosec_lab.dir/rule
 .PHONY : infosec_lab
 
 # clean rule for target.
-core/CMakeFiles/infosec_lab.dir/clean:
-	$(MAKE) $(MAKESILENT) -f core/CMakeFiles/infosec_lab.dir/build.make core/CMakeFiles/infosec_lab.dir/clean
-.PHONY : core/CMakeFiles/infosec_lab.dir/clean
+lib/CMakeFiles/infosec_lab.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/infosec_lab.dir/build.make lib/CMakeFiles/infosec_lab.dir/clean
+.PHONY : lib/CMakeFiles/infosec_lab.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

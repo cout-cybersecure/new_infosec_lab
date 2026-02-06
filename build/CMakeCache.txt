@@ -225,13 +225,13 @@ infosec_lab_IS_TOP_LEVEL:STATIC=ON
 infosec_lab_SOURCE_DIR:STATIC=/home/technetium-addict/lab
 
 //Value Computed by CMake
-infosec_lab_core_BINARY_DIR:STATIC=/home/technetium-addict/lab/build/core
+infosec_lab_lib_BINARY_DIR:STATIC=/home/technetium-addict/lab/build/lib
 
 //Value Computed by CMake
-infosec_lab_core_IS_TOP_LEVEL:STATIC=OFF
+infosec_lab_lib_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-infosec_lab_core_SOURCE_DIR:STATIC=/home/technetium-addict/lab/core
+infosec_lab_lib_SOURCE_DIR:STATIC=/home/technetium-addict/lab/lib
 
 
 ########################
