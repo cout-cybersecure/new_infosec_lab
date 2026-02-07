@@ -1,6 +1,6 @@
 # INFOSEC LAB
 
-## WHAT THIS DOES SO FAR
+## WHAT THIS DOES CURRENTLY
 
 Implements fork, merge request, review, approvals, and protected branch rules for information security work. Converts merge request state into isolated environment instances, manages invitations, and handles workspace import/export as versioned bundles.
 
