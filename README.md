@@ -2,7 +2,7 @@
 
 ## WHAT THIS DOES CURRENTLY
 
-Implements fork, merge request, review, approvals, and protected branch rules for information security work. Converts merge request state into isolated environment instances, manages invitations, and handles workspace import/export as versioned bundles.
+Implements fork, merge request, review, approvals, and protected branch rules for information security work. Converts merge request state into isolated environment instances, manages invitations, and handles workspace import/export as versioned packages.
 
 **Components:**
 - C++ library (`lib/`): VCS operations (fork, merge requests, reviews, approvals) and environment management (create from MR, invitations)
