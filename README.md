@@ -1,6 +1,6 @@
-# Infosec Lab
+# INFOSEC LAB
 
-## What This Does
+## WHAT THIS DOES SO FAR
 
 Implements fork, merge request, review, approvals, and protected branch rules for information security work. Converts merge request state into isolated environment instances, manages invitations, and handles workspace import/export as versioned bundles.
 
@@ -10,9 +10,9 @@ Implements fork, merge request, review, approvals, and protected branch rules fo
 - YAML config (`config/`): Branch protection rules
 - Shell scripts (`scripts/`): Workspace bundle export/import and rule checking
 
-## How to Use
+## HOW TO USE
 
-### Build
+### BUILD
 
 ```bash
 mkdir build && cd build
@@ -20,7 +20,7 @@ cmake ..
 make
 ```
 
-### Create Merge Request
+### CREATE MERGE REQUEST
 
 ```bash
 cd cli
@@ -39,8 +39,25 @@ Config JSON format:
 }
 ```
 
-### Check Branch Protection Rules
+### CHECK BRANCH PROTECTION RULES
 
 ```bash
 ./scripts/check_rules.sh <mr_id> [config_file]
 ```
+## WHAT IS LEFT TO DO
+
+- Set up infrastructure with secure boot, TPM, and disk encryption
+- Configure immutable operating system (Fedora CoreOS or Talos Linux)
+- Implement virtualization with KVM/QEMU and confidential computing support
+- Configure network perimeter and segmentation with OPNsense
+- Configure Kubernetes with containered and restricted runtime classes
+- Configure Ceph storage with encryption for workspace data
+- Configure Harbor registry with image signing and admission controls
+- Implement secure workspace runtime isolation
+- Implement policy enforcement with OPA Gatekeeper or Kyverno
+- Configure network policies with Cilium and Envoy
+- Integrate OpenBao for secrets management
+- Set up WireGuard VPN and SSH certificate authority for remote access
+- Configure Falco for runtime threat detection
+- Set up telemetry stack (OpenTelemetry, Prometheus, Loki, Grafana)
+
