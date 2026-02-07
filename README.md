@@ -8,7 +8,7 @@ Implements fork, merge request, review, approvals, and protected branch rules fo
 - C++ library (`lib/`): VCS operations (fork, merge requests, reviews, approvals) and environment management (create from MR, invitations)
 - Go CLI (`cli/`): Command-line interface for creating merge requests
 - YAML config (`config/`): Branch protection rules
-- Shell scripts (`scripts/`): Workspace bundle export/import and rule checking
+- Shell scripts (`scripts/`): Workspace package export/import and rule checking
 
 ## HOW TO USE
 
